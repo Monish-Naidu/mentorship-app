@@ -134,7 +134,7 @@ onCompleteComponent = () =>{
                     }, {
                         "type": "radiogroup",
                         "name": "product_recommend",
-                        "title": "Have you recommended the product to anyone?",
+                        "title": "Are you in the ALIGN program?",
                         "choices": ["Yes", "No"]
                     }
                 ]
@@ -144,24 +144,23 @@ onCompleteComponent = () =>{
                     {
                         "type": "rating",
                         "name": "nps_score",
-                        "title": "How likely are you to recommend the product to a friend or\ncolleague? ",
+                        "title": "How much do you love computer science? ",
                         "isRequired": true,
                         "rateMin": 0,
                         "rateMax": 10,
-                        "minRateDescription": "Most unlikely",
-                        "maxRateDescription": "Most likely"
+                        "minRateDescription": "What's a computer?",
+                        "maxRateDescription": "I eat, breathe, and sleep computer science"
                     }, {
                         "type": "radiogroup",
                         "name": "favorite_functionality",
-                        "title": "What's your favorite functionality / add-on for the product?",
+                        "title": "What's the number one thing you look for in a company?",
                         "hasOther": true,
                         "choices": [
-                            "Feature 1",
-                            "Feature 2",
-                            "Feature 3",
-                            "Feature 4",
-                            "Feature 5",
-                            "Feature 6"
+                            "Name prestige",
+                            "Work/life balance",
+                            "Newest technology",
+                            "Work culture/ammenities",
+                            "Location"
                         ],
                         "colCount": 3
                     }, {
@@ -205,7 +204,7 @@ var surveyRender = !this.state.isCompleted ? (
 ) : null
 
 var onSurveyCompletion = this.state.isCompleted ? (
-  <div> Thanks for completing Monish's survey</div>
+  <div> Thanks for completing the survey! Check your email to see who will be your mentor!</div>
 ) : null;
   return (
     <div className="App">

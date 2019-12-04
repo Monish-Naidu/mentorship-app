@@ -29,6 +29,7 @@ onCompleteComponent = () =>{
                         "name": "customer_role",
                         "title": "Which field of Computer Science are you MOST interested in?",
                         "hasOther": true,
+                        "isRequired": true,
                         "choices": [
                             "Backend Development",
                             "Web Development",
@@ -44,6 +45,7 @@ onCompleteComponent = () =>{
                         "type": "radiogroup",
                         "name": "start_using",
                         "title": "How awesome is Dr. Evans?",
+                        "isRequired": true,
                         "choices": [
                             {
                                 "value": "Awesome",
@@ -58,6 +60,7 @@ onCompleteComponent = () =>{
                         "name": "product_discovering",
                         "title": "How did you discover the mentorship pairing app? ",
                         "hasOther": true,
+                        "isRequired": true,
                         "choices": [
                             "Friend or colleague", "Email", "Facebook", "Twitter", "Blog"
                         ],
@@ -106,6 +109,7 @@ onCompleteComponent = () =>{
                         "name": "product_alternative",
                         "title": "What was your undergraduate degree in?",
                         "hasOther": true,
+                        "isRequired": true,
                         "choices": [
                             "Biological Sciences",
                             "Computer Science",
@@ -121,6 +125,7 @@ onCompleteComponent = () =>{
                         "name": "product_benefit",
                         "title": "What industry are you most interested in?",
                         "hasOther": true,
+                        "isRequired": true,
                         "maxCount": 2,
                         "choices": [
                             "Travel",
@@ -135,6 +140,7 @@ onCompleteComponent = () =>{
                         "type": "radiogroup",
                         "name": "product_recommend",
                         "title": "Are you in the ALIGN program?",
+                        "isRequired": true,
                         "choices": ["Yes", "No"]
                     }
                 ]
@@ -154,6 +160,7 @@ onCompleteComponent = () =>{
                         "type": "radiogroup",
                         "name": "favorite_functionality",
                         "title": "What's the number one thing you look for in a company?",
+                        "isRequired": true,
                         "hasOther": true,
                         "choices": [
                             "Name prestige",
